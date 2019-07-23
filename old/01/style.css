@@ -1,0 +1,97 @@
+body{
+  font-size: 100%;
+  font-family: 'Patrick Hand', cursive;
+}
+
+p{
+  font-size: 150%;
+}
+
+h1{
+  margin-top: 5%;
+  font-size: 250%;
+}
+
+h2{
+  font-size: 200%;
+}
+
+a{
+  color: DeepSkyBlue;
+}
+
+/* TABLE */
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-top: 8%;
+}
+
+th{
+  text-align: center;
+  font-size: 150%;
+  background-color: DodgerBlue ;
+  margin: 10%;
+  color: white;
+}
+
+td {
+  font-size: 150%;
+  text-align: center;
+}
+
+
+/* BUTTONS */
+
+.button {
+  background-color: DeepSkyBlue;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  cursor: pointer;
+  border-radius: 50%;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 115%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+div {
+  display: none;
+}
+.button:hover {
+  background-color: white; 
+  color: black;
+}
+button:hover + div {
+  display: block;
+}
+
+
+.button2 {
+  font-size: 100%;
+  background-color: LightSteelBlue;
+  color: black;
+}
+.button2:hover {
+  background-color: white;
+  color: DodgerBlue;
+}
+
+/* button for DATES */
+.button3 {
+  border-radius: 0%;
+  font-size: 100%;
+  background-color: LightSteelBlue;
+  color: black;
+  width: 100%;
+  font-size: 125%;
+}
+.button3:hover {
+  background-color: LightSteelBlue; 
+  color: black;
+}
